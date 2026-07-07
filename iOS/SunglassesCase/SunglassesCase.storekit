@@ -1,0 +1,44 @@
+{
+  "identifier" : "SunglassesCase",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "sunglassescase_pro_group",
+      "localizations" : [],
+      "name" : "SunglassesCase Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "sunglassescase_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Lens-scratch condition log and repair history",
+              "displayName" : "SunglassesCase Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.sunglassescase.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "SunglassesCase Pro Monthly",
+          "subscriptionGroupID" : "sunglassescase_pro_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
